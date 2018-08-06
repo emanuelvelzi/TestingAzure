@@ -1,0 +1,12 @@
+﻿alter session set "_ORACLE_SCRIPT"=true;  
+create user emanuelvelzi identified by Claro$701234;
+create role basic_user ;
+grant basic_user to emanuelvelzi;
+GRANT CREATE SESSION to basic_user;
+GRANT create session TO basic_user;
+GRANT create table TO basic_user;
+GRANT create view TO basic_user;
+GRANT create any trigger TO basic_user;
+GRANT create any procedure TO basic_user;
+GRANT create sequence TO basic_user;
+GRANT create synonym TO basic_user;

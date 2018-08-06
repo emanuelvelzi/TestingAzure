@@ -1,0 +1,8 @@
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\bin\Release\netstandard2.0\TestingAzure.Entities.deps.json
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\bin\Release\netstandard2.0\TestingAzure.Entities.dll
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\bin\Release\netstandard2.0\TestingAzure.Entities.pdb
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.csproj.CoreCompileInputs.cache
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.AssemblyInfoInputs.cache
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.AssemblyInfo.cs
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.dll
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.pdb
