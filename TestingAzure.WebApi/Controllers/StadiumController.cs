@@ -11,9 +11,9 @@ namespace TestingAzure.WebApi.Controllers
     {
         private IUnitOfWork unitOfWork;
 
-        public StadiumController()//IUnitOfWork unitOfWork)
+        public StadiumController(IUnitOfWork unitOfWork)
         {
-            this.unitOfWork = new DataAccess.EntityFramework.UnitOfWork();//unitOfWork;
+            this.unitOfWork = unitOfWork;
         }
 
         // GET: api/Stadium
@@ -68,7 +68,7 @@ namespace TestingAzure.WebApi.Controllers
 
             this.unitOfWork.BeginTransaction();
             IRepository<Stadium> repo = this.unitOfWork.GetRepository<Stadium>();
-            repo.Update(stadium);
+            repo.Create(stadium);
             this.unitOfWork.Commit();
 
             return Created("Stadiums", stadium);
@@ -86,7 +86,7 @@ namespace TestingAzure.WebApi.Controllers
 
             this.unitOfWork.BeginTransaction();
             IRepository<Stadium> repo = this.unitOfWork.GetRepository<Stadium>();
-            repo.Delete(stadium);
+            repo.Delete(stadium.Id);
             this.unitOfWork.Commit();
 
 

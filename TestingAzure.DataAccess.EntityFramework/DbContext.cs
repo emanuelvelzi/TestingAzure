@@ -1,17 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TestingAzure.DataAccess.Interfaces;
 using TestingAzure.Entities;
 
 namespace TestingAzure.DataAccess.EntityFramework
 {
     public class DbContext : Microsoft.EntityFrameworkCore.DbContext
     {
-        public DbContext()
+        private IConnectionString connectionString;
+
+        public DbContext(IConnectionString connectionString)
         {
+            this.connectionString = connectionString;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=tcp:azuresqldbsvr.database.windows.net,1433;Initial Catalog=AzureSqlDatabase;Persist Security Info=False;User ID=emanuelvelzi;Password=Claro$701234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer(connectionString.ConnectionString);
         }
         protected override void OnModelCreating(ModelBuilder dbModelBuilder)
         {

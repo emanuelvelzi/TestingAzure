@@ -5,9 +5,9 @@ namespace TestingAzure.DataAccess.EntityFramework
     public class UnitOfWork : IUnitOfWork
     {
         private DbContext dbContext;
-        public UnitOfWork()
+        public UnitOfWork(DbContext dbContext)
         {
-            this.dbContext = new DbContext();
+            this.dbContext = dbContext;
         }
 
 
@@ -23,7 +23,7 @@ namespace TestingAzure.DataAccess.EntityFramework
 
         public void Rollback()
         {
-            this.dbContext = new DbContext();
+           
         }
 
 

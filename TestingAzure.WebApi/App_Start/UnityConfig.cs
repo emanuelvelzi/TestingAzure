@@ -1,7 +1,10 @@
+using CommonServiceLocator;
+using System.Configuration;
 using System.Web.Http;
 using TestingAzure.DataAccess.EntityFramework;
 using TestingAzure.DataAccess.Interfaces;
 using Unity;
+using Unity.ServiceLocation;
 using Unity.WebApi;
 
 namespace TestingAzure.WebApi
@@ -10,15 +13,23 @@ namespace TestingAzure.WebApi
     {
         public static void RegisterComponents()
         {
-			var container = new UnityContainer();
+            var container = new UnityContainer();
+            var locator = new UnityServiceLocator(container);
+            ServiceLocator.SetLocatorProvider(() => locator);
 
-            // register all your components with the container here
-            // it is NOT necessary to register your controllers
+            var conn = new ConnectionString(ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString);
+            container.RegisterInstance<IConnectionString>(conn);
 
-            // e.g. container.RegisterType<ITestService, TestService>();
+            if (ConfigurationManager.AppSettings["Database"] == "Oracle")
+            {
+                container.RegisterType<IUnitOfWork, DataAccess.NHibernate.UnitOfWork>();
+            }
+            else // Azure / SqlServer
+            {
+                container.RegisterType<IUnitOfWork, UnitOfWork>();
+                container.RegisterType<DbContext>();
+            }
 
-            container.RegisterType<IUnitOfWork, UnitOfWork>();
-            
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
     }

@@ -1,8 +1,10 @@
 ﻿Create table Stadium (
-	"Id" number(10),
-	"Name" varchar2(300),
-	"Capacity" number(10),
-	"City" varchar2(300),
-	"Country" varchar2(300),
-	"Description" varchar2(300)
+	ID number(10) primary key,
+	NAME varchar2(300),
+	CAPACITY number(10),
+	CITY varchar2(300),
+	COUNTRY varchar2(300),
+	DESCRIPTION varchar2(300)
 );
+
+create sequence Stadium_SEQ;
