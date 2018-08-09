@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using TestingAzure.DataAccess.Interfaces;
 using TestingAzure.DataAccess.EntityFramework;
+using TestingAzure.DataAccess.NHibernate;
 
 namespace TestingAzure.WebApiNetCore
 {
@@ -27,12 +28,18 @@ namespace TestingAzure.WebApiNetCore
                 c.SwaggerDoc("v1", new Info { Title = "Net Core API", Version = "v1" });
             });
 
-            //services.AddTransient<DbContext>();
-            //services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<IUnitOfWork, DataAccess.NHibernate.UnitOfWork>();
-
             var conn = new ConnectionString(Configuration.GetConnectionString("DbConnection"));
             services.AddSingleton<IConnectionString>(conn);
+            if (Configuration["Database"] == "Oracle")
+            {
+                services.AddTransient<IUnitOfWork, DataAccess.NHibernate.UnitOfWork>();
+                services.AddSingleton(SessionFactory.CreateSessionFactory(conn));
+            }
+            else //Azure o SqlServer
+            {
+                services.AddTransient<DbContext>();
+                services.AddTransient<IUnitOfWork, DataAccess.EntityFramework.UnitOfWork>();
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

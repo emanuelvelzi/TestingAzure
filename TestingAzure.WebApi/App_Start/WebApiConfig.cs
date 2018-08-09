@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using TestingAzure.WebApi.Handlers;
 
 namespace TestingAzure.WebApi
 {
@@ -16,6 +17,8 @@ namespace TestingAzure.WebApi
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Filters.Add(new ExceptionHandlingAttribute());
         }
     }
 }

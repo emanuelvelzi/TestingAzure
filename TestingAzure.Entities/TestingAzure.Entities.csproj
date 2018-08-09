@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Configurations>Debug;Release;PublishToOracle</Configurations>
+    <Configurations>Debug;Release;PublishToOracle;PublishToAzureSql;Web.PublishToSqlServer</Configurations>
   </PropertyGroup>
 
 </Project>

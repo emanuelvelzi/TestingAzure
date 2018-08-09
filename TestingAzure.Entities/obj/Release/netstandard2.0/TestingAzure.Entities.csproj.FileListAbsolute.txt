@@ -6,4 +6,4 @@ C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Relea
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.AssemblyInfo.cs
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.dll
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.pdb
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.csprojResolveAssemblyReference.cache
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.Entities\obj\Release\netstandard2.0\TestingAzure.Entities.csprojAssemblyReference.cache

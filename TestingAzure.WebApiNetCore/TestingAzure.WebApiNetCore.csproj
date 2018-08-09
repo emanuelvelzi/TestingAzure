@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Configurations>Debug;Release;PublishToOracle</Configurations>
+    <Configurations>Debug;Release;PublishToOracle;PublishToAzureSql;Web.PublishToSqlServer</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +13,7 @@
     <PackageReference Include="FluentNHibernate" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.12.0-beta3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
   </ItemGroup>
@@ -26,12 +27,6 @@
     <ProjectReference Include="..\TestingAzure.DataAccess.Interfaces\TestingAzure.DataAccess.Interfaces.csproj" />
     <ProjectReference Include="..\TestingAzure.DataAccess.NHibernate\TestingAzure.DataAccess.NHibernate.csproj" />
     <ProjectReference Include="..\TestingAzure.Entities\TestingAzure.Entities.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Oracle.ManagedDataAccess">
-      <HintPath>Oracle.ManagedDataAccess.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

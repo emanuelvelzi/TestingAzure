@@ -1,55 +1,20 @@
-﻿using FluentNHibernate.Cfg;
-using FluentNHibernate.Cfg.Db;
-using NHibernate;
-using NHibernate.Driver;
+﻿using NHibernate;
 using TestingAzure.DataAccess.Interfaces;
 
 namespace TestingAzure.DataAccess.NHibernate
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly ISessionFactory _sessionFactory;
+        private readonly ISessionFactory SessionFactory;
         private ITransaction _transaction;
 
         public ISession Session { get; set; }
 
 
-        public UnitOfWork(IConnectionString connectionString)
+        public UnitOfWork(ISessionFactory sessionFactory)
         {
-            if (_sessionFactory == null)
-            {
-                //_sessionFactory = Fluently.Configure()
-                //           .Database(OracleClientConfiguration.Oracle10.ConnectionString(connectionString.ConnectionString)
-                //           .Driver<LoggerClientDriver>()
-                //           )
-                //           .Mappings(map => map.FluentMappings.AddFromAssemblyOf<StadiumMap>())
-                //           .BuildSessionFactory();
-
-                /*
-                _sessionFactory = Fluently.Configure()
-                           .Database(OracleClientConfiguration.Oracle10.ConnectionString(connectionString.ConnectionString)
-                           .Driver<OracleDataClientDriver>()
-                           )
-                           .Mappings(map => map.FluentMappings.AddFromAssemblyOf<StadiumMap>())
-                           .BuildSessionFactory();
-
-                _sessionFactory = Fluently.Configure()
-                          .Database(OracleClientConfiguration.Oracle10.ConnectionString(connectionString.ConnectionString)
-                          .Driver<OracleLiteDataClientDriver>()
-                          )
-                          .Mappings(map => map.FluentMappings.AddFromAssemblyOf<StadiumMap>())
-                          .BuildSessionFactory();
-*/
-                _sessionFactory = Fluently.Configure()
-                         .Database(OracleClientConfiguration.Oracle10.ConnectionString(connectionString.ConnectionString)
-                         .Driver<LoggerClientDriver>()
-                         )
-                         .Mappings(map => map.FluentMappings.AddFromAssemblyOf<StadiumMap>())
-                         .BuildSessionFactory();
-                
-            }
-
-            Session = _sessionFactory.OpenSession();
+            SessionFactory = sessionFactory;
+            Session = SessionFactory.OpenSession();
         }
 
         public void BeginTransaction()

@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Web.Http;
 using TestingAzure.DataAccess.EntityFramework;
 using TestingAzure.DataAccess.Interfaces;
+using TestingAzure.DataAccess.NHibernate;
 using Unity;
 using Unity.ServiceLocation;
 using Unity.WebApi;
@@ -23,10 +24,11 @@ namespace TestingAzure.WebApi
             if (ConfigurationManager.AppSettings["Database"] == "Oracle")
             {
                 container.RegisterType<IUnitOfWork, DataAccess.NHibernate.UnitOfWork>();
+                container.RegisterInstance(SessionFactory.CreateSessionFactory(container.Resolve<IConnectionString>()));
             }
             else // Azure / SqlServer
             {
-                container.RegisterType<IUnitOfWork, UnitOfWork>();
+                container.RegisterType<IUnitOfWork, DataAccess.EntityFramework.UnitOfWork>();
                 container.RegisterType<DbContext>();
             }
 

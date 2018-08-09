@@ -14,4 +14,3 @@ C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfa
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Debug\netstandard2.0\TestingAzure.DataAccess.Interfaces.AssemblyInfo.cs
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Debug\netstandard2.0\TestingAzure.DataAccess.Interfaces.dll
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Debug\netstandard2.0\TestingAzure.DataAccess.Interfaces.pdb
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Debug\netstandard2.0\TestingAzure.DataAccess.Interfaces.csprojResolveAssemblyReference.cache

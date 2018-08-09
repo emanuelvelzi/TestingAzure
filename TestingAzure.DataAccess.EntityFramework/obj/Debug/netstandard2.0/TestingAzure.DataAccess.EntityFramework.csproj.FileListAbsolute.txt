@@ -12,8 +12,6 @@ C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityF
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.deps.json
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.dll
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.pdb
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.csprojResolveAssemblyReference.cache
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.csproj.TestingAzure.DataAccess.EntityFramework.dll.config
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.csproj.CoreCompileInputs.cache
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.AssemblyInfoInputs.cache
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.AssemblyInfo.cs
@@ -23,3 +21,6 @@ C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityF
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.Entities.dll
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.DataAccess.Interfaces.pdb
 C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\bin\Debug\netstandard2.0\TestingAzure.Entities.pdb
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.csprojAssemblyReference.cache
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.dll.config
+C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.EntityFramework\obj\Debug\netstandard2.0\TestingAzure.DataAccess.EntityFramework.csproj.CopyComplete
