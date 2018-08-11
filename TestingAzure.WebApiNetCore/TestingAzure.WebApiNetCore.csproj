@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Configurations>Debug;Release;PublishToOracle;PublishToAzureSql;Web.PublishToSqlServer</Configurations>
+    <Configurations>Debug;Release;PublishToOracle;PublishToAzureSql;Web.PublishToSqlServer;PublishToOracleExpress</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

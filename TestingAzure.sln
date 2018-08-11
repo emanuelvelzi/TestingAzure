@@ -24,6 +24,7 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		PublishToAzureSql|Any CPU = PublishToAzureSql|Any CPU
 		PublishToOracle|Any CPU = PublishToOracle|Any CPU
+		PublishToOracleExpress|Any CPU = PublishToOracleExpress|Any CPU
 		PublishToSqlServer|Any CPU = PublishToSqlServer|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -34,6 +35,8 @@ Global
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{1FE5AFB1-E22E-4740-A92A-423B24CE4216}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +47,8 @@ Global
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{503A895B-4FF9-40B5-A936-4826A9C1C704}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +58,8 @@ Global
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToAzureSql|Any CPU.Deploy.0 = PublishToAzureSql|Any CPU
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToOracle|Any CPU.Deploy.0 = PublishToOracle|Any CPU
+		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToOracleExpress|Any CPU.Deploy.0 = PublishToOracleExpress|Any CPU
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.PublishToSqlServer|Any CPU.Deploy.0 = Web.PublishToSqlServer|Any CPU
 		{F84CE406-6FF3-4988-B68E-E1604CAE51F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -62,6 +69,8 @@ Global
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{06134D7E-1AD1-4F70-9359-CCB78DA7EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,6 +81,8 @@ Global
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{633A4168-934D-4DBF-89D0-C23A8CD88774}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -82,6 +93,8 @@ Global
 		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{333E535B-B465-4036-9A46-6F827D272EBD}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{333E535B-B465-4036-9A46-6F827D272EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -92,6 +105,8 @@ Global
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToAzureSql|Any CPU.Build.0 = PublishToAzureSql|Any CPU
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToOracle|Any CPU.ActiveCfg = PublishToOracle|Any CPU
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToOracle|Any CPU.Build.0 = PublishToOracle|Any CPU
+		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToSqlServer|Any CPU.ActiveCfg = Web.PublishToSqlServer|Any CPU
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.PublishToSqlServer|Any CPU.Build.0 = Web.PublishToSqlServer|Any CPU
 		{CA4172D4-9B2E-40A0-9EE7-40408ACC4C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -102,6 +117,8 @@ Global
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToAzureSql|Any CPU.Build.0 = Debug|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToOracle|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToOracle|Any CPU.Build.0 = Debug|Any CPU
+		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToOracleExpress|Any CPU.ActiveCfg = PublishToOracleExpress|Any CPU
+		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToOracleExpress|Any CPU.Build.0 = PublishToOracleExpress|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToSqlServer|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToSqlServer|Any CPU.Build.0 = Debug|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
