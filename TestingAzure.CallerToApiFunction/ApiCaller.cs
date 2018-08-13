@@ -7,10 +7,17 @@ using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace FunctionWrapper
+namespace TestingAzure.CallerToApiFunction
 {
     public static class ApiCaller
     {
+        private static HttpClient _httpClient;
+        public static HttpClient CommonHttpClient
+        {
+            get { return _httpClient ?? new HttpClient(); }
+            set { _httpClient = value; }
+        }
+
         [FunctionName("Run")]
         public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
         {
@@ -36,7 +43,6 @@ namespace FunctionWrapper
             {
                 foreach (string currentApi in apis)
                 {
-                    var client = new HttpClient();
                     Task[] taskCalls = new Task[calls];
 
                     var Stadium = new
@@ -54,7 +60,7 @@ namespace FunctionWrapper
                     {
                         for (var i = 0; i < calls; i++)
                         {
-                            taskCalls[i] = Task.Run(() => client.PostAsJsonAsync($"{currentApi}/api/Stadium", Stadium));
+                            taskCalls[i] = Task.Run(() => CommonHttpClient.PostAsJsonAsync($"{currentApi}/api/Stadium", Stadium));
                         }
 
                         Task.WaitAll(taskCalls);
@@ -66,7 +72,7 @@ namespace FunctionWrapper
 
                     timer.Stop();
                     apiTimers.Add(currentApi, timer.ElapsedMilliseconds);
-                    client.Dispose();
+                    CommonHttpClient.Dispose();
                     System.Threading.Thread.Sleep(2000);
                 }
             }

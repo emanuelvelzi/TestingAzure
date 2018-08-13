@@ -1,9 +1,0 @@
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\bin\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.deps.json
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\bin\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.dll
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\bin\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.pdb
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.csproj.CoreCompileInputs.cache
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.AssemblyInfoInputs.cache
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.AssemblyInfo.cs
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.dll
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.pdb
-C:\Users\emanuel.velzi\source\repos\TestingAzure\TestingAzure.DataAccess.Interfaces\obj\Release\netstandard2.0\TestingAzure.DataAccess.Interfaces.csprojAssemblyReference.cache

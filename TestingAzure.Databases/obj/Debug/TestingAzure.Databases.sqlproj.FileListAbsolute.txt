@@ -1,7 +1,0 @@
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\bin\Debug\TestingAzure.Databases.dacpac
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\Model.xml
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\refactor.xml
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\postdeploy.sql
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\predeploy.sql
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\TestingAzure.Databases.dll
-C:\Users\emanuel.velzi\Documents\TestingAzure\TestingAzure.Databases\obj\Debug\TestingAzure.Databases.pdb

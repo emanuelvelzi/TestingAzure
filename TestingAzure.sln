@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingAzure.DataAccess.NHi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingAzure.CallerToApiFunction", "TestingAzure.CallerToApiFunction\TestingAzure.CallerToApiFunction.csproj", "{6DBE3C19-2388-43D8-BEEB-891644C11A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingAzure.Tests", "TestingAzure.Tests\TestingAzure.Tests.csproj", "{EDB05055-1644-448B-8F9F-6F48777BD62D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,18 @@ Global
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.PublishToSqlServer|Any CPU.Build.0 = Debug|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DBE3C19-2388-43D8-BEEB-891644C11A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToAzureSql|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToAzureSql|Any CPU.Build.0 = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToOracle|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToOracle|Any CPU.Build.0 = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToOracleExpress|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToOracleExpress|Any CPU.Build.0 = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToSqlServer|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.PublishToSqlServer|Any CPU.Build.0 = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB05055-1644-448B-8F9F-6F48777BD62D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
