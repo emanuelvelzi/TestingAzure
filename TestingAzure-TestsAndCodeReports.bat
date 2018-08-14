@@ -1,5 +1,5 @@
  REM Path variables
- SET FolderPath=C:\Projects\workspace\CLA001_PORTAL_PSR_NET_Dev\BE\SourceCode\ITEC.WebPSR
+ SET FolderPath=%~dp0
  SET ResultsPath=%FolderPath%\UnitTestResults
  SET CoverageHistoryPath=%FolderPath%\CoverageHistory
  
@@ -9,9 +9,7 @@
  SET ReportGeneratorPath=%FolderPath%\packages\ReportGenerator.3.1.2\tools
  SET ConverterCoverToCobertura=%FolderPath%\packages\OpenCoverToCoberturaConverter.0.2.6.0\tools
  
- 
- 
- SET UnitTestProj=%FolderPath%\ITEC.WebPSR.Tests\bin\Debug\ITEC.WebPSR.Tests.dll
+ SET UnitTestProj=%FolderPath%\TestingAzure.Tests\bin\Debug\net461\TestingAzure.Tests.dll
  
  REM Recreate Results Folder
  rd /S /Q %ResultsPath%
@@ -35,9 +33,7 @@
  REM Run ReportGenerator to create coverage HTML report from coverage XML
  %ReportGeneratorPath%\ReportGenerator.exe -reports:%ResultsPath%\opencovertests.xml -targetDir:%ResultsPath% -historydir:%CoverageHistoryPath%
  
-%ConverterCoverToCobertura%\OpenCoverToCoberturaConverter.exe -input:%ResultsPath%\opencovertests.xml -output:%ResultsPath%\Cobertura.xml -sources:%ResultsPath%
-
-
+ %ConverterCoverToCobertura%\OpenCoverToCoberturaConverter.exe -input:%ResultsPath%\opencovertests.xml -output:%ResultsPath%\Cobertura.xml -sources:%ResultsPath%
  
  
  REM Fail if Nunit has found an error on tests
