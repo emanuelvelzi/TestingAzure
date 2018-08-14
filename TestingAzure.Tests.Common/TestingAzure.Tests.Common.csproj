@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestingAzure.DataAccess.EntityFramework\TestingAzure.DataAccess.EntityFramework.csproj" />
+    <ProjectReference Include="..\TestingAzure.DataAccess.Interfaces\TestingAzure.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\TestingAzure.DataAccess.NHibernate\TestingAzure.DataAccess.NHibernate.csproj" />
+    <ProjectReference Include="..\TestingAzure.Entities\TestingAzure.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
