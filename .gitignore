@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 *.sou
@@ -17,3 +17,6 @@ AddressesLatitudeLongitud/POSUpdated
 
 *.psess
 /**/.axoCover/runs
+TestResult.xml
+CoverageHistory
+UnitTestResults
